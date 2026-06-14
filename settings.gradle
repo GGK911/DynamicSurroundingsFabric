@@ -1,8 +1,10 @@
 pluginManagement {
     repositories {
+        maven { url "https://bmclapi2.bangbang93.com/maven/" }
         maven { url "https://maven.fabricmc.net/" }
         maven { url "https://maven.architectury.dev/" }
         maven { url "https://files.minecraftforge.net/maven/" }
+        maven { url "https://maven.aliyun.com/repository/gradle-plugin" }
         gradlePluginPortal()
     }
 }
@@ -11,4 +13,4 @@ rootProject.name = 'dsurround'
 
 include 'common'
 include 'fabric'
-include 'neoforge'
+//include 'neoforge'

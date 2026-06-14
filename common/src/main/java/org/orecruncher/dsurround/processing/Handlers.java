@@ -71,6 +71,7 @@ public class Handlers {
         this.register(AreaBlockEffects.class);
         this.register(StepAccentGenerator.class);
         this.register(FogHandler.class);
+        this.register(CraftingSoundHandler.class);
 
         ClientState.TICK_END.register(this::tick);
         ClientState.ON_CONNECT.register(this::onConnect);
@@ -179,6 +180,7 @@ public class Handlers {
             .registerSingleton(FootstepAccents.class)
             .registerSingleton(StepAccentGenerator.class)
             .registerSingleton(FogHandler.class)
+            .registerSingleton(CraftingSoundHandler.class)
             .registerSingleton(Handlers.class);
     }
 }

@@ -1462,5 +1462,26 @@
 		"sounds": [
 			"dsurround:ambient/silence"
 		]
+	},
+	"craft.hammer": {
+		"subtitle": "dsurround.sound.caption.crafthammer",
+		"sounds": [
+			"dsurround:ambient/steve/crafthammer1",
+			"dsurround:ambient/steve/crafthammer2"
+		]
+	},
+	"craft.sand": {
+		"subtitle": "dsurround.sound.caption.craftsand",
+		"sounds": [
+			"dsurround:ambient/steve/craftsand1",
+			"dsurround:ambient/steve/craftsand2"
+		]
+	},
+	"craft.saw": {
+		"subtitle": "dsurround.sound.caption.craftsaw",
+		"sounds": [
+			"dsurround:ambient/steve/craftsaw1",
+			"dsurround:ambient/steve/craftsaw2"
+		]
 	}
 }
